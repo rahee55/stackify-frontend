@@ -134,7 +134,7 @@ const Dashboard = () => {
             </div>
             <h3 className="text-lg font-semibold text-slate-700">No websites yet</h3>
             <p className="text-slate-500 mb-6">Start by creating your first AI-generated website.</p>
-            <Link to="/create" className="text-indigo-600 font-medium hover:underline">Create Now &rarr;</Link>
+            <Link to="/" className="text-indigo-600 font-medium hover:underline">Create Now &rarr;</Link>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
